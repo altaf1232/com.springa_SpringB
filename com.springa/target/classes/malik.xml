@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:P="http://www.springframework.org/schema/P"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+   
+<bean class="com.springcoreb.Employee" name="employee1">
+<property name="employeeId" value="12345"></property>
+<property name="employeeName" value="altafMalik"></property>
+<property name="employeCity" value="Mumbai"></property>
+<property name="employeeAddress" value="Sakinaka gali no 405"></property>
+</bean> 
+
+<bean class="com.springcoreb.Employee" name="employee2">
+<property name="employeeId" value="678910"></property>
+<property name="employeeName" value="SalmanMalik"></property>
+<property name="employeCity" value="Delhi"></property>
+<property name="employeeAddress" value="Okhala gali delhi jamaMasjid"></property>
+</bean>
+
+<bean class="com.springcoreb.Employee" name="employee3">
+<property name="employeeId" value="121361"></property>
+<property name="employeeName" value="MuskanMalik"></property>
+<property name="employeCity" value="Chennai"></property>
+<property name="employeeAddress" value="Saluyer CampRoad Chennai TamilNaud"></property>
+</bean>
+
+</beans>
